@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SuperApp</string>
+    <string name="appTitle">Felipe Moreira</string>
+    <string name="titulo">Calculator</string>
+    <string name="tri">Triangles</string>
+    <string name="btnVerica">Verify</string>
+    <string name="tiSobre">About</string>
+    <string name="lamp">Lamp</string>
+    <string name="conv">Converter</string>
+    <string name="sobre">App made by Felipe Moreira a student in SENAI instituion, specifically for P.R.A class</string>
+    <string name="quizTitle">Quiz</string>
+    <string name="go">Go</string>
+    <string name="lpAma">Yellow</string>
+    <string name="lpAzul">Blue</string>
+    <string name="lpBranco">White</string>
+    <string name="lpLaran">Orange</string>
+    <string name="calcDiv">Divide</string>
+    <string name="calcMult">Multiply</string>
+    <string name="calcSomar">Sum</string>
+    <string name="calcSub">Subtract</string>
+    <string name="lpLuz">Light</string>
+    <string name="lpMa">Brown</string>
+    <string name="lpRoxo">Purple</string>
+    <string name="lpVer">Red</string>
+    <string name="lpVerde">Green</string>
+    <string name="nome">Name</string>
+    <string name="tituloCalc">Calculator</string>
+    <string name="conve">Converter</string>
+    <string name="boaTarde">Good Afternoon!</string>
+    <string name="sx">Gender:</string>
+    <string name="cso">Classes:</string>
+    <string name="html">HTML</string>
+    <string name="php">PHP</string>
+    <string name="css">CSS</string>
+    <string name="js">JavaScript</string>
+    <string-array name="curso_arrays">
+        <item id="0">Choose</item>
+        <item id="1">Coin(Dollar)</item>
+        <item id="2">Weight(Kilogram-gram)</item>
+        <item id="3">Temperature(Celsius-Kelvin)</item>
+        <item id="4">Length(m-cm)</item>
+    </string-array>
+</resources>

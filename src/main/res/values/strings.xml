@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">SuperApp</string>
+    <string name="appTitle" translatable="false">Felipe Moreira</string>
+    <string name="tituloCalc">Calculadora</string>
+    <string name="calcSomar">Somar</string>
+    <string name="calcSub">Subtrair</string>
+    <string name="calcMult">Multiplicar</string>
+    <string name="calcDiv">Dividir</string>
+    <string name="tri">Triangulos</string>
+    <string name="btnVerica">Verificar</string>
+    <string name="tiSobre">Sobre</string>
+    <string name="lamp">Lampada</string>
+    <string name="lpAzul">Azul</string>
+    <string name="lpVerde">Verde</string>
+    <string name="lpVer">Vermelho</string>
+    <string name="lpMa">Marrom</string>
+    <string name="lpLaran">Laranja</string>
+    <string name="lpAma">Amarelo</string>
+    <string name="lpRoxo">Roxo</string>
+    <string name="lpBranco">Brano</string>
+    <string name="lpLuz">Luz</string>
+    <string name="sobre">App feito por Felipe Moreira, que estuda na instituição SENAI ,para aula de P.R.A do professor Robson Barbosa, </string>
+    <string name="quizTitle">Quiz</string>
+    <string name="go">Ir</string>
+    <string name="nome">nome</string>
+    <string name="conve">Conversor</string>
+    <string name="boaTarde">Boa Tarde!</string>
+    <string name="sx">Sexo:</string>
+    <string name="cso">Cursos:</string>
+    <string name="html">HTML</string>
+    <string name="php">PHP</string>
+    <string name="css">CSS</string>
+    <string name="js">JavaScript</string>
+    <string-array name="conversor_array">
+        <item id="0">Escolha</item>
+        <item id="1">Moeda(Dolar)</item>
+        <item id="2">Peso(Quilograma-Grama)</item>
+        <item id="3">Temperatura(Celsius-Kelvin)</item>
+        <item id="4">Comprimento(m-cm)</item>
+    </string-array>
+</resources>

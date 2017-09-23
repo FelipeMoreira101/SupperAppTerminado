@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/activity_lampada"
+    tools:context="com.example.felipe.superapp.lampada">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lamp"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_marginBottom="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnAzul"
+                    android:text="@string/lpAzul"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="BotaoAzul"/>
+                <Button
+                    android:id="@+id/btnVerde"
+                    android:text="@string/lpVerde"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="BotaoVerde"/>
+                <Button
+                    android:id="@+id/btnVermelho"
+                    android:text="@string/lpVer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="BotaoVermelho"/>
+                <Button
+                    android:id="@+id/btnMarrom"
+                    android:text="@string/lpMa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="BotaoMarrom"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <Button
+                    android:id="@+id/btnLaranja"
+                    android:text="@string/lpLaran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="BotaoLaranja"/>
+                <Button
+                    android:id="@+id/btnAmarelo"
+                    android:text="@string/lpAma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="BotaoAmarelo"/>
+                <Button
+                    android:id="@+id/btnRoxo"
+                    android:text="@string/lpRoxo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="BotaoRoxo"/>
+                <Button
+                    android:id="@+id/btnBranco"
+                    android:text="@string/lpBranco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="BotaoBranco"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Lampad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="70sp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/lpLuz" />
+
+            <Switch
+                android:id="@+id/btnAlternar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Alternar"
+                android:layout_gravity="center" />
+    </LinearLayout>
+</ScrollView>
+

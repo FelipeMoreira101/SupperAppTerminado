@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    tools:context="com.example.felipe.superapp.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/appTitle"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textColor="#000" />
+        <!--  DOIS PRIMEIROS BOTÕES - LAMPADA E 'CADASTRO' -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+            <!--   CADASTRO -->
+            <ImageButton
+                android:layout_marginRight="50dp"
+                android:id="@+id/altCadt"
+                android:onClick="cadastro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_cad"
+                android:layout_gravity="center" />
+            <!--   LAMPADA -->
+            <ImageButton
+                android:id="@+id/altLampada"
+                android:onClick="lampadas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_lamp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+        <!--  SEGUNDO E TERCEIRO BOTÃO - CALCULADORA E TRIANGULOS -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30dp">
+            <!--   CALCULADORA -->
+            <ImageButton
+                android:layout_marginRight="50dp"
+                android:id="@+id/altCalc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_calc"
+                android:layout_gravity="center"
+                android:onClick="calculadora" />
+            <!--   TRIANGULOS -->
+            <ImageButton
+                android:id="@+id/altTri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_triangulo"
+                android:onClick="triangulos" />
+        </LinearLayout>
+        <!--  QUARTO E QUINTO BOTÃO - SOBRE E VIBRAR -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30dp">
+            <!--   SOBRE -->
+            <ImageButton
+                android:layout_marginRight="50dp"
+                android:id="@+id/altSobre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sobre"
+                android:src="@mipmap/ic_sobre" />
+            <!--   VIBRAR -->
+            <ImageButton
+                android:id="@+id/vibra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Vibrar"
+               android:src="@mipmap/ic_vibra" />
+        </LinearLayout>
+        <!--  SEXTO E SETIMO BOTÃO - CONVERSOR E LANTERNA -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+            <!--   CONVERSOR -->
+            <Button
+                android:id="@+id/conv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Conv"
+                android:text="@string/conve" />
+            <!--   LANTERNA -->
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/flash_light"
+                android:onClick="flash_light"
+                android:src="@mipmap/ic_flash" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/estrelinhas"
+                android:numStars="5"
+                android:rating="4"
+                android:stepSize="1.0"
+                android:isIndicator='false'/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnVerica"
+                android:id="@+id/btnVerifica"
+                android:onClick="verEstrelas"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
